@@ -1,0 +1,25 @@
+[tool.poetry]
+package-mode = false
+name = "waituntil"
+version = "0.1.0"
+description = ""
+authors = ["Quinn N <88954051+quinn-n@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12,<3.13"
+click = "^8.1.7"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+flake8 = "^7.0.0"
+mypy = "^1.10.0"
+pyinstaller = "^6.8.0"
+pytest = "^8.2.2"
+hypothesis = "^6.103.2"
+ipdb = "^0.13.13"
+ipython = "^8.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
